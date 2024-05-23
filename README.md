@@ -1,6 +1,7 @@
 # Cypress com Cucumber (POC)
 
 This is a Proof of Concept (POC) demonstrating the integration of Cypress with Cucumber, allowing the use of Gherkin to describe tests more clearly. This POC was inspired by a video from Eric Wendel about Cypress, using the site he provided for testing.
+Additionally, this POC was used to explore how GitHub Actions CI works, and a YAML file was created to run Cypress E2E tests automatically.
 
 ## Credits
 
@@ -40,7 +41,10 @@ Next, follow the steps below:
     npm run cypress:web
 ```
 
+## Continuous Integration
+
 ## Contribution
+This project includes a GitHub Actions workflow to automatically run Cypress E2E tests. The configuration file is located at .github/workflows/cypress-tests.yml. The workflow is triggered on pushes and pull requests to the main branch.
 
 You are welcome to contribute to the development of this project. If you find bugs, wish to add new features, or improve usability, feel free to open an issue or submit a pull request.
 
