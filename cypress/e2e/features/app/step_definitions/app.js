@@ -2,7 +2,6 @@ import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { colors, RegisterForm } from "../../../../support/register-form";
 
 const registerForm = new RegisterForm();
-// TESTANDO TRIGGER DO GITHUB ACTIONS
 
 describe("Image Registration", () => {
   Given(`I am on the image registration page`, () => {
