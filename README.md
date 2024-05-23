@@ -1,7 +1,5 @@
 # Cypress com Cucumber (POC)
 
-![Shorts Summary Logo](./public/logo.jpg)
-
 This is a Proof of Concept (POC) demonstrating the integration of Cypress with Cucumber, allowing the use of Gherkin to describe tests more clearly. This POC was inspired by a video from Eric Wendel about Cypress, using the site he provided for testing.
 
 ## Credits
