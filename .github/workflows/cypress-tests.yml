@@ -22,4 +22,4 @@ jobs:
         run: npm i
 
       - name: Run Cypress tests e2e
-        run: npm run cypress:headless
+        run: npm run cypress:terminal
