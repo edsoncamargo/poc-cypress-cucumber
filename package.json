@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v20.11.0"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:terminal": "npx cypress run --browser chrome",
+    "cypress:clean": "npx cypress cache clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "cypress": "13.7.2",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  }
+}
