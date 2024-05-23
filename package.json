@@ -9,7 +9,7 @@
   },
   "scripts": {
     "cypress:web": "npx cypress open",
-    "cypress:terminal": "npx cypress run --browser chrome",
+    "cypress:terminal": "npx cypress run --browser edge",
     "cypress:clean": "npx cypress cache clear"
   },
   "keywords": [],
